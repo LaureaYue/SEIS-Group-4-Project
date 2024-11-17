@@ -176,7 +176,7 @@ plt.xlabel("Make")
 # In[36]:
 
 
-#Top 10 Number of Card by Make
+#Top 10 Number of Cars by Make
 df.Make.value_counts().nlargest(10).plot(kind='barh',figsize=(20,10))
 plt.title("Top 10 Number of Cars by Make")
 plt.ylabel("Nummber of Cars")
