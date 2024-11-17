@@ -20,7 +20,7 @@ sns.set(color_codes=True)
 
 
 # Load Data
-df = pd.read_csv("cardata.csv")
+df = pd.read_csv("input/cardataset/data.csv")
 # To display the top 5 rows 
 df.head(5)   
 
